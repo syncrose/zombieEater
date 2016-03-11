@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5071DBA-8522-4267-8838-29E81C862CAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF9DF958-F4F3-4A61-8302-6EE4C5FC85DD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NewZombieEaters", "src\NewZombieEaters\NewZombieEaters.xproj", "{2EA6B3E0-BA1A-42D8-B580-2379FFB72D91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA6B3E0-BA1A-42D8-B580-2379FFB72D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA6B3E0-BA1A-42D8-B580-2379FFB72D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA6B3E0-BA1A-42D8-B580-2379FFB72D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA6B3E0-BA1A-42D8-B580-2379FFB72D91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EA6B3E0-BA1A-42D8-B580-2379FFB72D91} = {D5071DBA-8522-4267-8838-29E81C862CAB}
+	EndGlobalSection
+EndGlobal
