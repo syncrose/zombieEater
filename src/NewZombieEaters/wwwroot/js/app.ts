@@ -13,17 +13,17 @@ let charWidth = 50;
 
 cont.strokeRect(400, 400, 20, 80);
 
-//class Player {
-//    constructor() {
+class player {
+    constructor() {
         
-//    }
+    }
 
-//    drawPlayer() {
-//        cont.drawImage(charIcon, 0, 0, 30, 30);
-//    }
-//}
-//let newPlayer = new Player();
-//newPlayer.drawPlayer();
+    drawplayer() {
+        cont.drawimage(charicon, 0, 0, 30, 30);
+    }
+}
+let newplayer = new player();
+newplayer.drawplayer();
 charIcon.onload  = function () {
    let char = cont.drawImage(charIcon, x, y, charHeight, charWidth);
 
